@@ -1,0 +1,2 @@
+/*! Built with http://stenciljs.com */
+.st-flippy{float:left;perspective:1000px}.st-flippy__back,.st-flippy__front{position:absolute;width:inherit;height:inherit;transform-style:preserve-3d;backface-visibility:hidden}.st-flippy__front{z-index:900;transform:rotate3d(0,0,0,0deg)}.st-flippy--flipped .st-flippy__front{z-index:900;transform:rotate3d(0,1,0,180deg);-ms-transform:rotateY(180deg)}.st-flippy__back{z-index:800;transform:rotate3d(0,1,0,-180deg)}.st-flippy--flipped .st-flippy__back{z-index:1000;transform:rotate3d(0,0,0,0deg)}st-flippy.💎{visibility:inherit}

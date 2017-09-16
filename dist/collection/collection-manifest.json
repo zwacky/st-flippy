@@ -1,0 +1,55 @@
+{
+  "components": [
+    {
+      "tag": "st-flippy",
+      "componentClass": "StFlippy",
+      "componentPath": "components/st-flippy/st-flippy.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/st-flippy/st-flippy.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "flipBackEvents"
+        },
+        {
+          "name": "flipDuration",
+          "type": "number"
+        },
+        {
+          "name": "flipEvents"
+        },
+        {
+          "name": "flipTimingFunction"
+        },
+        {
+          "name": "isFlipped",
+          "type": "boolean"
+        }
+      ],
+      "states": [
+        {
+          "name": "flipState"
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      },
+      "slot": "hasNamedSlots"
+    }
+  ],
+  "bundles": [
+    {
+      "components": [
+        "st-flippy"
+      ]
+    }
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.0.5-23"
+  }
+}

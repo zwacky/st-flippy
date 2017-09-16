@@ -1,0 +1,33 @@
+.st-flippy {
+	float: left;
+	perspective: 1000px;
+
+	&__front, &__back {
+		position: absolute;
+		width: inherit;
+		height: inherit;
+		transform-style: preserve-3d;
+		backface-visibility: hidden;
+	}
+
+	&__front {
+		z-index: 900;
+		transform: rotate3d(0, 0, 0, 0deg);
+
+		.st-flippy--flipped & {
+			z-index: 900;
+			transform: rotate3d(0, 1, 0, 180deg);
+			-ms-transform: rotateY(180deg);
+		}
+	}
+
+	&__back {
+		z-index: 800;
+		transform: rotate3d(0, 1, 0, -180deg);
+
+		.st-flippy--flipped & {
+			z-index: 1000;
+			transform: rotate3d(0, 0, 0, 0deg);
+		}
+	}
+}

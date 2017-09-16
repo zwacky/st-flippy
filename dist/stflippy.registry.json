@@ -1,0 +1,41 @@
+{
+  "namespace": "stflippy",
+  "components": [
+    [
+      "ST-FLIPPY",
+      "fv9rjzte",
+      {
+        "$": "kl62jjvf"
+      },
+      [
+        [
+          "flipBackEvents",
+          1
+        ],
+        [
+          "flipDuration",
+          1,
+          2
+        ],
+        [
+          "flipEvents",
+          1
+        ],
+        [
+          "flipTimingFunction",
+          1
+        ],
+        [
+          "isFlipped",
+          1,
+          1
+        ]
+      ],
+      0,
+      2
+    ]
+  ],
+  "loader": "stflippy.js",
+  "core": "stflippy/stflippy.qchoa2v2.js",
+  "corePolyfilled": "stflippy/stflippy.lomktnre.pf.js"
+}
