@@ -14,12 +14,12 @@ Then in the template:
 
 ```
 <st-flippy {PARAMS}>
-	<div slot="front">
-		{HERE COMES YOUR FRONT}
-	</div>
-	<div slot="front">
-		{HERE COMES YOUR BACK}
-	</div>
+    <div slot="front">
+        {HERE COMES YOUR FRONT}
+    </div>
+    <div slot="front">
+        {HERE COMES YOUR BACK}
+    </div>
 </st-flippy>
 ```
 
@@ -27,7 +27,7 @@ Then in the template:
 
 ## API (params)
 
-Mandatory params (either `is-flipped` or `flip-(back-)events`:
+Mandatory params (either `is-flipped` or `flip-(back-)events`):
 
 * **is-flipped**: boolean
 * **flip-events**: string, concatenated with ','
