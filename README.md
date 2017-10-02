@@ -3,7 +3,7 @@
 ## Examples
 
 * Vanilla: https://jsbin.com/falipumuri/edit?html,output
-* AngularJS: https://jsbin.com/topuvocowa/edit?html,js,output
+* AngularJS: https://jsbin.com/qodacareba/1/edit?html,js,output
 * React: -
 
 ## Usage
