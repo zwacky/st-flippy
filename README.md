@@ -2,9 +2,9 @@
 
 ## Examples
 
-* Vanilla: https://jsbin.com/falipumuri/edit?html,output
-* AngularJS: https://jsbin.com/qodacareba/1/edit?html,js,output
-* React: can't get it to run on JS-REPL sites... would look similar to this: https://jsbin.com/lubukodike/edit?html,js,output
+* **Vanilla**: https://jsbin.com/falipumuri/edit?html,output
+* **AngularJS**: https://jsbin.com/qodacareba/1/edit?html,js,output
+* **React**: can't get it to run on JS-REPL sites... would look similar to this: https://jsbin.com/lubukodike/edit?html,js,output
 
 ## Usage
 
